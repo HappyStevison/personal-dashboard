@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Dashboard</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Quote Widget -->
+    <div class="widget" id="quote-widget">
+      <h2>Daily Inspiration</h2>
+      <div class="quote-content"></div>
+      <button id="new-quote">↻ New Quote</button>
+    </div>
+    
+    <!-- Weather Widget -->
+    <div class="widget" id="weather-widget">
+      <h2>Weather</h2>
+      <div class="weather-info"></div>
+    </div>
+    
+    <!-- Todo Widget -->
+    <div class="widget" id="todo-widget">
+      <h2>Todo List</h2>
+      <input type="text" id="todo-input" placeholder="Add task...">
+      <ul class="todo-list"></ul>
+    </div>
+  </div>
+  
+  <script src="scripts/app.js" type="module"></script>
+</body>
+</html>
